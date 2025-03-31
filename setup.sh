@@ -6,6 +6,7 @@ git clone git@github.com:lianakoleva/setup.git
 wget https://launchpad.net/~fish-shell/+archive/ubuntu/release-4/+files/fish_4.0.0-2~jammy_amd64.deb
 sudo dpkg -i fish_4.0.0-2~jammy_amd64.deb
 sudo cp setup/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+sudo cp setup/config.fish ~/.config/fish/config.fish
 fish
 
 # get drivers
